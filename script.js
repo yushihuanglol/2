@@ -1,5 +1,5 @@
 function inputWord() {
-    const word = prompt("Введите слово(норма слов):");
+    const word = prompt("Введите слово(норма соо в неделю):");
     const monitorImage = document.getElementById("monitorImage");
 
     if (word === '06.09.2024') {
