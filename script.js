@@ -11,6 +11,6 @@ function inputWord() {
         monitorImage.src = 'not_correct.png'; // Картинка с фразой "не то"
         setTimeout(function(){
             location.reload();
-        }, 2000);
+        }, 1000);
     }
 }
