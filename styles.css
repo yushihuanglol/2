@@ -1,0 +1,20 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('background.jpg'); /* Фоновая картинка */
+    background-size: cover;
+}
+
+.monitor {
+    cursor: pointer;
+    position: relative;
+}
+
+.monitor img {
+    width: 300px; /* Ширина монитора */
+    height: auto; 
+}
