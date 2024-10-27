@@ -9,8 +9,8 @@ function inputWord() {
         }, 3000);
     } else {
         monitorImage.src = 'not_correct.png'; // Картинка с фразой "не то"
-        setTimeout(() => {
-            monitorImage.src = 'placeholder.png'; // Возврат к исходному изображению через 3 секунды
-        }, 3000);
+        setTimeout(function(){
+            location.reload();
+        }, 2000);
     }
 }
